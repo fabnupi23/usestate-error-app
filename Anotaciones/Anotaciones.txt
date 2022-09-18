@@ -1,1 +1,5 @@
-Documento plano para anotaciones. 
+*En el useState se pasa como valor inicial una cadena vacia para indicarle que no hay error actualmente.
+
+*El h1 se va a cargar de forma condicional, es decir, solo me lo va a mostrar si error existe, entonces:
+    {error && <h1>{error}</h1>}{error && <h1>{error}</h1>}
+        Si el error existe o es diferente de una cadena de texto vacia, en este caso nos muestra dicho h1 y si no, no nos muestra nada 

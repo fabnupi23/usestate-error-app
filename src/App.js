@@ -1,9 +1,10 @@
 import React from 'react'
+import { ErrorApp } from './ErrorApp';
 
 function App() {
   return (
     <div>
-      <h1>Soy App preparando un error con el hook useState</h1>
+      <ErrorApp/>
     </div>
   )
 }
